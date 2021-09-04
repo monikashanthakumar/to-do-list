@@ -1,0 +1,197 @@
+body {
+  background: linear-gradient(45deg, #ffcbf2, #8338ec);
+  background-attachment: fixed;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+h2 {
+  color: #6f2dbd;
+}
+
+.container {
+  margin: 5% 0 0 25%;
+  width: 50%;
+  padding-top: 1%;
+  border: solid 1px white;
+  text-align: center;
+}
+
+.container2 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  margin: 0 5%;
+  box-sizing: border-box;
+}
+
+#input {
+  width: 80%;
+  padding: 1%;
+  margin-top: 5%;
+  background-color: #ffffff;
+  border: solid 2px #a4a8f8;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+#input::placeholder {
+  font-weight: normal;
+}
+
+#input:focus {
+  outline: none;
+  border: solid 2px #652bec;
+}
+
+.dtlabel {
+  color: black;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.dtb {
+  padding-bottom: 5%;
+  padding-left: 3%;
+}
+
+#dt {
+  width: 60%;
+  display: inline-block;
+  text-align: left;
+}
+
+#button {
+  width: 20%;
+  display: inline-block;
+  height: max-content;
+  margin-left: 2%;
+}
+
+#button button {
+  padding: 6% 10%;
+  cursor: pointer;
+  background-color: #bec0ff;
+  border-radius: 5px;
+  border: none;
+  color: black;
+  font-size: 1em;
+  font-weight: 500;
+  border: 1px solid #3a04b9;
+}
+
+button:active {
+  transform: scale(1.05);
+}
+
+#time {
+  width: 50%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  border: #f797b2 solid 1px;
+  border-radius: 3px;
+  text-align: center;
+  background-color: #fcdcf4;
+  color: #ff006e;
+  font-size: 1.2em;
+  padding: 2%;
+}
+
+#time:focus {
+  outline: none;
+  border: #ff006e solid 1.5px;
+}
+
+#date {
+  padding-left: 5%;
+  box-sizing: border-box;
+}
+
+.dtb {
+  margin-top: 5%;
+}
+
+.tasks {
+  background-color: #ffffff;
+  border-radius: 1em;
+  padding: 5% 0;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  margin: 5%;
+  box-sizing: border-box;
+}
+
+.task {
+  width: 80%;
+  text-align: left;
+  padding: 1% 0 1% 1%;
+  margin: auto;
+  margin-top: 5%;
+  border-bottom: solid 2px #4912cc;
+}
+
+button.mark {
+  background-color: #bec0ff;
+  color: black;
+  border-radius: 3px;
+  font-weight: 500;
+  border: #3a04b9 solid 1px;
+  cursor: pointer;
+  width: 50%;
+  height: 3em;
+  padding: 0 5%;
+  font-family: "Poppins", sans-serif;
+  float: left;
+  resize: none;
+}
+
+.del {
+  width: 40%;
+  height: 40%;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  float: right;
+}
+
+.del img {
+  width: 70%;
+}
+
+.tasktext {
+  width: 40%;
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.2em;
+  color: black;
+}
+#taskname {
+  display: inline-block;
+}
+
+#message {
+  font-weight: normal;
+  font-size: 0.8em;
+}
+
+.taskdt {
+  width: 15%;
+  display: inline-block;
+}
+
+.taskdone {
+  display: inline-block;
+  width: 30%;
+  margin-left: 10%;
+  float: right;
+  padding-top: 2%;
+  /* color: #f550d1; */
+}
