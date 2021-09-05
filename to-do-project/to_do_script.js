@@ -40,6 +40,12 @@ document.querySelector("#click").onclick = function () {
     return;
   } else {
     let ttime = new Date(document.querySelector("#time").value);
+    dt[n++] = ttime;
+    var ctime = new Date();
+    var msg = "<br>";
+    if (ttime < ctime) {
+      msg = "You forgot me";
+    }
     let hours = ttime.getHours();
     let am_pm = "AM";
     if (hours == 0) {
@@ -59,7 +65,7 @@ document.querySelector("#click").onclick = function () {
             <div class="tasktext">
               <span>${document.querySelector("#input").value}</span>
               <br>
-              <span id="message" style="color:#d90429"><br></span>
+              <span id="message" style="color:#d90429">${msg}</span>
             </div>
             <div class="taskdt">
               <span style="color: #f550d1">${
