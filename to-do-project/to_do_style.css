@@ -131,7 +131,7 @@ button:active {
 .task {
   width: 80%;
   text-align: left;
-  padding: 1% 0 1% 1%;
+  padding: 1%;
   margin: auto;
   margin-top: 5%;
   border-bottom: solid 2px #4912cc;
@@ -173,6 +173,7 @@ button.mark {
   font-size: 1.2em;
   color: black;
 }
+
 #taskname {
   display: inline-block;
 }
@@ -185,6 +186,8 @@ button.mark {
 .taskdt {
   width: 15%;
   display: inline-block;
+  vertical-align: top;
+  margin-left: 3%;
 }
 
 .taskdone {
@@ -192,6 +195,5 @@ button.mark {
   width: 30%;
   margin-left: 10%;
   float: right;
-  padding-top: 2%;
-  /* color: #f550d1; */
+  vertical-align: top;
 }
