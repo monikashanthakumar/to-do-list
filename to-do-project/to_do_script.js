@@ -16,7 +16,10 @@ for (let i = 1; i < val; i++) {
     tasks.appendChild(childli);
     let ttime = new Date(childli.querySelector(".taskdt").innerText);
     let ctime = new Date();
-    if (ttime < ctime) {
+    if (
+      ttime < ctime &&
+      childli.querySelector(".mark").value == "Mark as Done"
+    ) {
       childli.querySelector("#message").innerText = "You forget me";
       childli.querySelector("#message").style.color = "#d90429";
     }
@@ -66,7 +69,7 @@ document.querySelector("#click").onclick = function () {
             </div>
             <div class="taskdone">
               <button class="mark">
-                  mark as done
+                  Mark as Done
               </button>
               <button class="del">
               <img 
